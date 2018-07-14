@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.8em;
+  font-family: 'Exo', sans-serif;
+  color: #343838;
+}
+article {
+  padding:0 1em;
+}
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  background-image: url('./img/background3.jpg'); /* odnośnik prowadzący z głownego folderu do podrządnego !! */
+  background-position: fixed;
+  background-size: cover;
+  color: #EFFFE9;
+}
+header section {
+  margin: 0 auto;
+  max-width:640px;
+}
+
+header img {
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  border: 5px solid #EFFFE9;
+}
+
+h1 {
+  margin: 1em 0;
+  text-transform: uppercase;
+  color: #EFFFE9;
+}
+
+main {
+  max-width: 1140px;
+}
+
+.course {
+  display: flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
+
+.course .title {
+  font-weight: bold;
+  color: #005f6b;
+  flex: 0 0 33.3%;
+  -ms-flex: 0 0 33.3%;
+  max-width: 33%;
+}
+
+.course .description {
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+  -ms-flex: 0 0 66.6%;
+}
+.skills {
+  display: flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
+.skills .column {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.skills .column ul li::before { 
+    content: "►";
+    padding-right: 0.5em;
+    color:  #df405a;
+}
+ul {
+  list-style-type: none;
+}
+footer {
+ padding: 1em 1.5em;
+ background-image: url('./img/background3.jpg');
+ color: #EFFFE9;
+ text-align: right;
+}
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section:not(:last-child) {
+  border-bottom: 1px solid #9DC8C8;
+}
+.course .decsription p{
+  padding-left: 1em;
+}
+/* .school {
+  text-transform: capitalize;
+}*/
+span {
+  font-weight: bold;
+  text-decoration: underline;
+  color:#005f6b;
+}
+.school {
+  font-weight: bold;
+}
+a {
+  color: #343838;
+}
+a:hover {
+  color: #df405a;
+}
+.job-description ul li::before{
+  content: "►";
+   padding-right: 0.5em;
+    color:  #df405a;
+}
+@media only screen and (max-width: 768px) {
+  .course {
+    display: block;
+  }
+
+  .course .title, .course .description {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
