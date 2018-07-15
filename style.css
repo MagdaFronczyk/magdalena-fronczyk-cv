@@ -36,13 +36,13 @@ header img {
   width: 145px;
   height: 145px;
   border-radius: 50%;
-  border: 5px solid #EFFFE9;
+  border: 5px solid #ffffff;
 }
 
 h1 {
   margin: 1em 0;
   text-transform: uppercase;
-  color: #EFFFE9;
+  color: #ffffff;
 }
 
 main {
@@ -83,7 +83,7 @@ main {
 .skills .column ul li::before { 
     content: "►";
     padding-right: 0.5em;
-    color: #E53A40;
+    color: #f9320c;
 }
 ul {
   list-style-type: none;
@@ -119,12 +119,12 @@ a {
   color: #090707;
 }
 a:hover {
-  color: #E53A40;
+  color: #f9320c;
 }
 .job-description ul li::before{
   content: "►";
    padding-right: 0.5em;
-    color:  #E53A40;
+    color: #f9320c;
 }
 @media only screen and (max-width: 768px) {
   .course {
