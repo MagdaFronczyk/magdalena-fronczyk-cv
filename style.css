@@ -5,7 +5,7 @@ body {
   font-size: 16px;
   line-height: 1.8em;
   font-family: 'Exo', sans-serif;
-  color: #343838;
+  color: #090707;
 }
 article {
   padding:0 1em;
@@ -25,7 +25,7 @@ header {
   background-image: url('./img/yellowback.jpg'); /* odnośnik prowadzący z głownego folderu do podrządnego !! */
   background-position: fixed;
   background-size: cover;
-  color: #EFFFE9;
+  color: #ffffff;
 }
 header section {
   margin: 0 auto;
@@ -58,7 +58,7 @@ main {
 
 .course .title {
   font-weight: bold;
-  color: #005f6b;
+  color: #30A9DE;
   flex: 0 0 33.3%;
   -ms-flex: 0 0 33.3%;
   max-width: 33%;
@@ -83,7 +83,7 @@ main {
 .skills .column ul li::before { 
     content: "►";
     padding-right: 0.5em;
-    color:  #df405a;
+    color: #E53A40;
 }
 ul {
   list-style-type: none;
@@ -91,7 +91,7 @@ ul {
 footer {
  padding: 1em 1.5em;
  background-image: url('./img/yellowback.jpg');
- color: #EFFFE9;
+ color: #ffffff;
  text-align: right;
 }
 h3 {
@@ -99,7 +99,7 @@ h3 {
   text-transform: uppercase;
 }
 section:not(:last-child) {
-  border-bottom: 1px solid #9DC8C8;
+  border-bottom: 1px solid #F9B009;
 }
 .course .decsription p{
   padding-left: 1em;
@@ -110,21 +110,21 @@ section:not(:last-child) {
 span {
   font-weight: bold;
   text-decoration: underline;
-  color:#005f6b;
+  color:#30A9DE;
 }
 .school {
   font-weight: bold;
 }
 a {
-  color: #343838;
+  color: #090707;
 }
 a:hover {
-  color: #df405a;
+  color: #E53A40;
 }
 .job-description ul li::before{
   content: "►";
    padding-right: 0.5em;
-    color:  #df405a;
+    color:  #E53A40;
 }
 @media only screen and (max-width: 768px) {
   .course {
