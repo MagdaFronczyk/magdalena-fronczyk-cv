@@ -22,7 +22,7 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('./img/yellowback.jpg'); /* odnośnik prowadzący z głownego folderu do podrządnego !! */
+  background-image: url('./img/yellowback2.jpg'); /* odnośnik prowadzący z głownego folderu do podrządnego !! */
   background-position: center;
   background-size: cover;
   color: #ffffff;
@@ -90,7 +90,7 @@ ul {
 }
 footer {
  padding: 1em 1.5em;
- background-image: url('./img/yellowback.jpg');
+ background-image: url('./img/yellowback2.jpg');
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
@@ -102,7 +102,7 @@ h3 {
   text-transform: uppercase;
 }
 section:not(:last-child) {
-  border-bottom: 1px solid #F9B009;
+  border-bottom: 1px solid #090707;
 }
 .course .decsription p{
   padding-left: 1em;
@@ -122,7 +122,7 @@ a {
   color: #090707;
 }
 a:hover {
-  color: #f9320c;
+  color: #E36204;
 }
 .job-description ul li::before{
   content: "►";
