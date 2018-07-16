@@ -23,7 +23,7 @@ header {
   padding: 2em;
   text-align: center;
   background-image: url('./img/yellowback.jpg'); /* odnośnik prowadzący z głownego folderu do podrządnego !! */
-  background-position: fixed;
+  background-position: center;
   background-size: cover;
   color: #ffffff;
 }
@@ -91,6 +91,9 @@ ul {
 footer {
  padding: 1em 1.5em;
  background-image: url('./img/yellowback.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
  color: #ffffff;
  text-align: right;
 }
