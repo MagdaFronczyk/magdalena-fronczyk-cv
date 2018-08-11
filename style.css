@@ -1,34 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url("https://fonts.googleapis.com/css?family=Exo");
 
 body {
   margin: 0;
   font-size: 16px;
   line-height: 1.8em;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   color: #090707;
 }
 article {
-  padding:0 1em;
+  padding: 0 1em;
 }
-section{
+section {
   margin: 1em;
   padding: 1em;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   margin: 0 auto;
 }
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('./img/yellowback2.jpg'); /* odnośnik prowadzący z głownego folderu do podrządnego !! */
+  background-image: url("./img/yellowback2.jpg");
   background-position: center;
   background-size: cover;
   color: #ffffff;
 }
 header section {
   margin: 0 auto;
-  max-width:640px;
+  max-width: 640px;
 }
 header img {
   width: 145px;
@@ -49,13 +51,13 @@ ul {
   list-style-type: none;
 }
 footer {
- padding: 1em 1.5em;
- background-image: url('./img/yellowback2.jpg');
- background-repeat: no-repeat;
- background-position: center;
- background-size: cover;
- color: #ffffff;
- text-align: right;
+  padding: 1em 1.5em;
+  background-image: url("./img/yellowback2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: right;
 }
 h3 {
   font-weight: bold;
@@ -64,19 +66,19 @@ h3 {
 section:not(:last-child) {
   border-bottom: 1px solid #090707;
 }
-.course .decsription p{
+.course .decsription p {
   padding-left: 1em;
 }
 span {
   font-weight: bold;
   text-decoration: underline;
-  color:#30A9DE;
+  color: #30a9de;
 }
 a {
   color: #090707;
 }
 a:hover {
-  color: #E36204;
+  color: #e36204;
 }
 header a {
   text-decoration: none;
@@ -85,10 +87,10 @@ header a {
 .school {
   font-weight: bold;
 }
-.job-description ul li::before{
+.job-description ul li::before {
   content: "►";
-   padding-right: 0.5em;
-    color: #f9320c;
+  padding-right: 0.5em;
+  color: #f9320c;
 }
 .course {
   display: flex;
@@ -99,7 +101,7 @@ header a {
 
 .course .title {
   font-weight: bold;
-  color: #30A9DE;
+  color: #30a9de;
   flex: 0 0 33.3%;
   -ms-flex: 0 0 33.3%;
   max-width: 33%;
@@ -120,16 +122,17 @@ header a {
   flex: 0 0 50%;
   max-width: 50%;
 }
-.skills .column ul li::before { 
-    content: "►";
-    padding-right: 0.5em;
-    color: #f9320c;
+.skills .column ul li::before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #f9320c;
 }
 @media only screen and (max-width: 768px) {
   .course {
     display: block;
   }
-  .course .title, .course .description {
+  .course .title,
+  .course .description {
     max-width: 100%;
   }
 }
