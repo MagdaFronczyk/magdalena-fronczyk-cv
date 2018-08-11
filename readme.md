@@ -1,6 +1,6 @@
 # Project Name
 
-> This is a simple Resume which helped me brush up my knowledge of HTML and CSS basics.
+> This is a simple Resume which helped me brush my basis of HTML and CSS up.
 
 ## Table of contents
 
@@ -34,7 +34,7 @@ Project inspired by [@flynerdpl](https://www.flynerd.pl/)
 
 Thanks:
 
-Google Fonts - a collection of beautiful free fonts. A special thank you for Natanael Gama, a designer of Exo font, which I've used in this project.
+Google Fonts - a collection of beautiful free fonts. A special thank you for Natanael Gama, the designer of Exo font which I've used in this project.
 
 Font Awsome - a set of modern free icons.
 
