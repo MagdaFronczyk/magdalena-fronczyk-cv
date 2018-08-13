@@ -1,4 +1,4 @@
-# Project Name
+# CV
 
 > This is a simple resume which helped me brush my basis of HTML and CSS up, and practice GIT.
 
@@ -34,9 +34,9 @@ Project inspired by [@flynerdpl](https://www.flynerd.pl/)
 
 Thank you:
 
-Google Fonts - a collection of beautiful free fonts. A special thank you for Natanael Gama who designed the Exo font which I've used in this project.
+-Google Fonts - a collection of beautiful free fonts. A special thank you for Natanael Gama who designed the Exo font which I've used in this project.
 
-Font Awsome - a collection of fun,modern and free icons.
+-Font Awsome - a collection of fun,modern and free icons.
 
 ## Contact
 
