@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.8em;
+  padding: 0;
   font-family: "Exo", sans-serif;
   color: #090707;
 }
@@ -66,7 +67,7 @@ h3 {
 section:not(:last-child) {
   border-bottom: 1px solid #090707;
 }
-.course .decsription p {
+.course .description p {
   padding-left: 1em;
 }
 span {
