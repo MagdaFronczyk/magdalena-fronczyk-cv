@@ -23,6 +23,7 @@ I've decided to complete this project in order to put my basic knowledge of HTML
 
 - HTML5
 - CSS3
+- RWD
 
 ## Status
 
